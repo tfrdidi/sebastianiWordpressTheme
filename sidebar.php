@@ -6,8 +6,7 @@
 	<div class="sidebar-module">
 		<h4>Archives</h4>
 		<ol class="list-unstyled">
-			<li><a href="#">March 2014</a></li>
-			<!-- More archive examples -->
+			<?php wp_get_archives( 'type=monthly' ); ?>
 		</ol>
 	</div>
 	<div class="sidebar-module">
