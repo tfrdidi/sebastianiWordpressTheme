@@ -8,8 +8,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo get_bloginfo( 'name' ); ?></title>
-
     <!-- nothing in the header after this snippet -->
     <?php wp_head();?>
   </head>
