@@ -12,8 +12,12 @@
 	<div class="sidebar-module">
 		<h4>Elsewhere</h4>
 		<ol class="list-unstyled">
-			<li><a href="<?php echo get_option('github'); ?>">GitHub</a></li>
-			<li><a href="<?php echo get_option('facebook'); ?>">Facebook</a></li>
+			<?php if(get_option('github')):?>
+				<li><a href="<?php echo get_option('github'); ?>">GitHub</a></li>
+			<?php endif;?>
+			<?php if(get_option('facebook')):?>
+				<li><a href="<?php echo get_option('facebook'); ?>">Facebook</a></li>
+			<?php endif;?>
 		</ol>
 	</div>
 </div><!-- /.blog-sidebar -->
