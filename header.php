@@ -10,12 +10,6 @@
 
     <title><?php echo get_bloginfo( 'name' ); ?></title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
-
     <!-- nothing in the header after this snippet -->
     <?php wp_head();?>
   </head>
