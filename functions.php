@@ -11,6 +11,10 @@ add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 // WordPress Titles
 add_theme_support( 'title-tag' );
 
+// Support Featured Images
+add_theme_support( 'post-thumbnails' );
+
+
 // Custom settings
 function custom_settings_add_menu() {
   add_menu_page( 'Theme Settings', 'Theme Settings', 'manage_options', 'custom-settings', 'custom_settings_page', null, 99 );
